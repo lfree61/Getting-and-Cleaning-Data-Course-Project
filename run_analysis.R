@@ -24,7 +24,7 @@ y_train <- read.table("~/train/y_train.txt", stringsAsFactors = F)
 
 #Merge the appropriate datasets together & then into one final dataset
 dat <- rbind(X_test, X_train)
-colnames(data) <- features[, 2]
+colnames(dat) <- features[, 2]
 
 subject <- rbind(subject_test, subject_train)
 colnames(subject) <- "Subject"
