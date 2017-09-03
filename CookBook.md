@@ -7,7 +7,7 @@ Download UCI Human Activity Recognition Using Smartphones Data Set from the foll
 
 Output data: 
 ========================================
-The run_analysis.R code will result in two datasets-- tidy_data1.csv and tidy_data2.csv. 
+The run_analysis.R code will result in two datasets-- tidy_data1.txt and tidy_data2.txt. 
 The variables within both of these files include only the mean and standard deviation variables for the 
 measurement variables described in the features_info.txt file in the downloaded dataset. 
 
